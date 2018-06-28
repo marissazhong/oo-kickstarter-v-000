@@ -24,8 +24,8 @@ class Project
   end
   def self.add_backer(backer)
     new_backer = Backer.new(backer)
-    puts @backers
-    #@backers << new_backer
+    puts new_backer
+    @backers << new_backer
   end
 end
 
