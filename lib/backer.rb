@@ -30,5 +30,4 @@ end
 backer = Backer.new("Avi")
 spencer = Backer.new("Spencer")
 magic = Project.new("Magic The Gathering Thing")
-
-spencer.back_project(magic)
+puts spencer.back_project(magic)
