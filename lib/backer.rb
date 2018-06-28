@@ -15,4 +15,7 @@ end
 
 
 backer = Backer.new("Avi")
-backer.name
+spencer = Backer.new("Spencer")
+magic = Project.new("Magic The Gathering Thing")
+
+spencer.back_project(magic)
