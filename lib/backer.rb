@@ -12,3 +12,7 @@ class Backer
     @backed_projects
   end
 end
+
+
+backer = Backer.new("Avi")
+backer.name
