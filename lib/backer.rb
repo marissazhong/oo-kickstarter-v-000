@@ -8,12 +8,12 @@ class Backer
     @backed_projects << project
     #Project.add_backer(self)
   end
-  def backed_projects=(projects)
+  def backed_projects
     @backed_projects
   end
 end
 
-
+#send the project's name to the Project class
 
 backer = Backer.new("Avi")
 spencer = Backer.new("Spencer")
