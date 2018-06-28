@@ -11,7 +11,7 @@ class Project
   end
 
   def self.add_backer(backer)
-    puts self
+    backer = Backer.new(backer)
     backers << backer
   end
 
