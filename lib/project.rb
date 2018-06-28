@@ -7,7 +7,7 @@ class Project
   end
 
   def backers
-
+    @backers
   end
 
 end
