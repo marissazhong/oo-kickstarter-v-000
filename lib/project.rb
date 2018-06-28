@@ -6,12 +6,14 @@ class Project
     @backers = []
   end
 
-  def self.add_backer(backer)
-    @backers << backer
-  end
-
   def backers
     @backers
   end
+  
+  def self.add_backer(backer)
+    backers << backer
+  end
+
+
 
 end
