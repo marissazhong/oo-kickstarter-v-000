@@ -4,4 +4,7 @@ class Project
     @project_name = project_name
   end
 
+  def backers
+
+  end
 end
